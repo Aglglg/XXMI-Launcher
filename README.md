@@ -2,7 +2,7 @@
 Modified for my own purpose
 
 ### What changed?
-- WWMI, option to not configure Engine.ini
+- Wuthering Waves -> General Settings, option to not configure Engine.ini
 
 ### How to use this?
 1. Get the release zip file, it's portable version.
