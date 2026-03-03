@@ -245,7 +245,7 @@ class WWMIPackage(ModelImporterPackage):
         if not Config.Active.Importer.is_xxmi_dll_used():
             return
         # Configure DeviceProfiles.ini
-        self.update_device_profiles_ini(game_path)
+        # self.update_device_profiles_ini(game_path)
 
     def configure_settings(self, game_path: Path):
         Events.Fire(Events.Application.StatusUpdate(status=L('status_configuring_settings', 'Configuring in-game settings...')))
